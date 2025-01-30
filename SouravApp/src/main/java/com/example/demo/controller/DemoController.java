@@ -12,9 +12,7 @@ public class DemoController {
 	
 	@Autowired
 	private DemoService DemoService;
-	
-	public String m1()
-	{
+		public String m1(){
 		return DemoService.m1();
 	}
 }
