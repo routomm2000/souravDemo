@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.service.DemoService;
 
 @RestController
-@RequestMapping("demo")
+@RequestMapping("demo1")
 public class DemoController {
 	
 	@Autowired
